@@ -1,9 +1,14 @@
 Install Python (Windows):
 Please download and install Python 3.10.8 using the link below:
 https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe
+install VsCode
+https://code.visualstudio.com/
+Make an Virtual Environment
+py -3.10 -m venv vision
+vision/Scripts/Activate
 Install Required Libraries:
 After installing Python, kindly install the following libraries using pip:
-tensorflow==2.10.1
-opencv-python==4.8.1.78
-cvzone==1.6.1
-numpy==1.23.5
+pip install tensorflow==2.10.1
+pip install opencv-python==4.8.1.78
+pip install cvzone==1.6.1
+pip install numpy==1.23.5

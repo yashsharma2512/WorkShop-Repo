@@ -1,6 +1,8 @@
 Install Python (Windows):
 Please download and install Python 3.10.8 using the link below:
 https://www.python.org/ftp/python/3.10.8/python-3.10.8-amd64.exe
+For MacOS
+https://www.python.org/downloads/release/python-31011/
 install VsCode
 https://code.visualstudio.com/
 Make an Virtual Environment

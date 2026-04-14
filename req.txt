@@ -8,6 +8,15 @@ https://code.visualstudio.com/
 Make an Virtual Environment
 py -3.10 -m venv vision
 vision/Scripts/Activate
+
+Method 1: Using PowerShell (Requires Admin)
+Open the Start menu, search for PowerShell, right-click it, and select Run as Administrator.
+To check your current policy, type: Get-ExecutionPolicy -List.
+To enable scripts for all users, type: Set-ExecutionPolicy RemoteSigned -Scope LocalMachine.
+To enable scripts only for yourself (no admin rights needed), type: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser.
+Type Y or A and press Enter when prompted to confirm. 
+
+
 Install Required Libraries:
 After installing Python, kindly install the following libraries using pip:
 pip install tensorflow==2.10.1
